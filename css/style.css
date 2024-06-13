@@ -1,0 +1,115 @@
+	 
+body {
+	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	color: #FFFFFF;
+	font-size: 14px;
+	background-color: #000000;
+	padding-top: 0;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 0;
+}
+
+.gluten {
+  color: #FFFFFF;
+  background-color: red;
+}
+.wrapper {
+  max-width: 450px;
+  margin: auto;  
+  background-image: url("../img/fondo.jpg");
+
+}
+
+
+section {
+  margin-top: 30px;
+}
+
+
+.dish {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+	  padding-right: 15px;
+	  padding-left: 15px;
+
+
+}
+
+.dish2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+	
+}
+
+
+.dish .info {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding-right: 15px;
+}
+.dish .name {
+  font-size: 17px;
+	font-family:'Cabin', sans-serif;
+}
+
+.dish .name2 {
+  font-size: 17px;
+	font-family:'Cabin', sans-serif;
+}
+.dish .description {
+  font-size: 13px;
+	margin-top: 3px;
+	padding-bottom: 15px;
+}
+
+.textos {
+  font-size: 13px;
+	margin-top: 3px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.dish .price {
+  text-align: right;
+	font-size: 17px;
+	font-family:'Cabin', sans-serif;
+}
+
+.titulo {
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+font-size: 40px;
+font-weight: 400;
+color: #f39200;
+}
+
+.linea {
+	text-align: center;
+	max-width: 250px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	border-bottom: 2px solid #f39200;
+}
+
+.foto {
+text-align: center;
+padding-bottom: 0px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 15px;
+	background-color: #f39200;
+	padding-bottom: 15px;	
+	color: #000000;
+
+}
+footer a {
+	color: #000000;
+	text-decoration: none;
+}
